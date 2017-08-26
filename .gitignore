@@ -4,3 +4,7 @@ CircleCiDemo/bin/
 CircleCiDemo/obj/
 
 \.idea/
+
+\.DS_Store
+
+CircleCiDemo/publish/
