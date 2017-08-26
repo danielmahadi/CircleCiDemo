@@ -11,11 +11,7 @@ jobs:
       - checkout
       - run: dotnet restore
       - run: dotnet build
-
-      - unittest
       - run: dotnet test CircleCiDemo.Test/CircleCiDemo.Test.csproj 
-
-      - publish
       - run: dotnet publish CircleCiDemo/CircleCiDemo.csproj -o ./publish
 
       - setup_remote_docker
