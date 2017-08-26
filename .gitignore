@@ -8,3 +8,7 @@ CircleCiDemo/obj/
 \.DS_Store
 
 CircleCiDemo/publish/
+
+CircleCiDemo\.Test/bin/
+
+CircleCiDemo\.Test/obj/
