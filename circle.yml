@@ -28,3 +28,4 @@ jobs:
           docker build -t danielmahadi/circleci-demo-docker:$TAG .
           docker login -u $DOCKER_USER -p $DOCKER_PASS
           docker push danielmahadi/circleci-demo-docker:$TAG
+          docker push danielmahadi/circleci-demo-docker:latest
